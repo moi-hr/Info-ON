@@ -152,4 +152,9 @@ a {
 .footer a {
     color: white;
     text-decoration: none;
+
+}
+
+.top {
+    top: 20vh;
 }
