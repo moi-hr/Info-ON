@@ -6,7 +6,7 @@
     <title>Outubro Rosa</title>
     <link rel="stylesheet" href="rosa.css" type="text/css">
 </head>
-<body class="home-azul">
+<body class="home-rosa">
     <header>
         <div class="header">
             <a href="index.html">Info-<span class="fonterosa">O</span><span class="fonteazul">N</span></a>
@@ -28,6 +28,18 @@
             <button id="voltarMenu" style="display:none;">Voltar ao menu</button>
         </div>
     </div>
+    <!--Acessibilidade - Botão VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <!--Javascript VLibras-->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
     <script src="rosa.js"></script>
 </body>
