@@ -28,6 +28,18 @@
             <button id="voltarMenu" style="display:none;">Voltar ao menu</button>
         </div>
     </div>
+    <!--Acessibilidade - Botão VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <!--Javascript VLibras-->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
     <script src="azul.js"></script>
 </body>
