@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.home-azul {
+    background-image: linear-gradient(to right, skyblue, dodgerblue);
+}
+
+.header {
+    background-color: #ffffff60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: -2px 2px 8px deepskyblue, 2px -2px 8px hotpink;
+}
+
+.fonterosa {
+    color: lightpink;
+    font-weight: bold;
+    text-shadow: 1px 2px 8px deepskyblue;
+}
+
+.fonteazul {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px hotpink;
+}
+
+.main {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: skyblue;
+    text-shadow: 2px 2px 2px dodgerblue;
+    padding-bottom: 10px;
+    border-bottom: 2px solid dodgerblue;
+}
+
+.quiz {
+    padding: 10px 0;
+}
+
+.quiz h2 {
+    font-size: 1.3rem;
+}
+
+.btn {
+    background-color: lightblue;
+    width: 100%;
+    box-shadow: 2px 2px 3px cornflowerblue;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: skyblue;
+    box-shadow: 2px 2px 5px dodgerblue;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#proxima {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1rem;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    display: none;
+}
+
+.certo {
+    background-color: palegreen;
+}
+
+.errado {
+    background-color: lightcoral;
+}
+
+.feedback {
+    background-color: #f0f8ff;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-left: 5px solid dodgerblue;
+    display: block;
+    font-size: 1rem;
+}
+
+#voltarMenu {
+    background-color: hotpink;
+    color: white;
+    font-size: 1rem;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    display: none;
+}

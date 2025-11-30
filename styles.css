@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.home {
+    background-image: linear-gradient(to right, skyblue, lightpink);
+}
+
+.header {
+    background-color: #ffffff60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: -2px 2px 8px deepskyblue, 2px -2px 8px hotpink;
+}
+
+.fonterosa {
+    color: lightpink;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px white;
+}
+
+.fonteazul {
+    color: skyblue;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px white;
+}
+
+.intro {
+    text-align: center;
+    padding: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 2.1rem;
+    text-shadow: -2px 2px 8px cornflowerblue, 2px -2px 8px pink;
+}
+
+.intro p {
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    margin: 10px 20px 0 20px;
+}
+
+.rosazul {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.rosa {
+    background-color: lightpink;
+    width: 45%;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.rosa h2 {
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 1px 1px 5px orchid;
+}
+
+.rosabutton {
+    background-color:powderblue;
+    padding: 6px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.rosabutton a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px dodgerblue;
+}
+
+.rosabutton:hover {
+    background-color: dodgerblue;
+}
+
+.azul {
+    background-color: skyblue;
+    width: 45%;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.azul h2 {
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 1px 1px 5px dodgerblue;
+}
+
+.azulbutton {
+    background-color:pink;
+    padding: 6px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.azulbutton a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px orchid;
+}
+
+.azulbutton:hover {
+    background-color: hotpink;
+}
+
+.animated {
+    width: 300px;
+}
+
+.footer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
